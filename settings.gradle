@@ -1,2 +1,4 @@
 rootProject.name = 'basics'
+include 'src:main:testng'
+findProject(':src:main:testng')?.name = 'testng'
 
