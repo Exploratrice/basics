@@ -7,7 +7,7 @@ import static org.testng.Assert.assertEquals;
 public class CashbackHackServiceTest {
 
     @Test
-    void shouldTestWorks() {
+    public void shouldTestWorks() {
 
         CashbackHackService service = new CashbackHackService();
         int amount = 900;
@@ -20,7 +20,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void shouldTestNotWork() {
+    public void shouldTestNotWork() {
 
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
